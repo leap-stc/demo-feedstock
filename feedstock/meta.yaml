@@ -1,19 +1,19 @@
-title: "LEAP Data Library Prototype"
+title: "MRMS Rainfall Measurements"
 description: >
-  A prototype test for the LEAP Data Library refactor
+  MRMS Rainfall Measurements, converted to Zarr format. All are the hourly accumulations. A few different options are included, including the Gauge measurement, MultiSensor MultiPass measurement, and the derived precipitation rate.
 recipes:
-  - id: "small"
-    object: "recipe:small"
-  - id: "large"
-    object: "recipe:large"
+  - id: "mrms"
 provenance:
   providers:
-    - name: "Julius"
-      description: "Just a guy testing some recipes. Nothing to see here."
+    - name: "Jacob Bieker"
       roles:
         - producer
-        - licensor
-  license: "Just a Test"
+      url: "https://source.coop/bkr"
+    - name: "Source.Coop"
+      roles:
+        - host
+      url: "https://source.coop"
+  license: "unknown"
 maintainers:
   - name: "Julius Busecke"
     orcid: "0000-0001-8571-865X"
